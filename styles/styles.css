@@ -1,0 +1,142 @@
+body{
+    background: #f4f5f7;
+    font-family: 'Poppins', sans-serif;
+    color: #545454;
+}
+h1, h2, h3{
+    font-weight: 600;
+}
+h4, h5, h6{
+    font-weight: 400;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    margin-right: 5%;
+}
+.nav-item{
+    white-space: nowrap;
+    margin-right: 20%;
+}
+
+/* Headings */
+.big-title{
+    font-size: 6rem;
+    margin: 0;
+}
+.big-subtitle{
+    color: #c6c5c5;
+    font-size: 1.5rem;
+}
+.text-title{
+    font-weight: 600;
+}
+
+.how-works-title{
+    font-weight: 600;
+}
+
+.hw-big-subtitle{
+    font-weight: 400;
+    font-size: 2rem;
+}
+/* Containers */
+.title-container{
+    padding: 10% 0 5% 15%;
+}
+.text-title-container{
+    margin: 8% 0 0 12%;
+}
+.how-works-text-container{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.how-works-benefits-container{
+    text-align: center;
+    margin-top: 8%;
+}
+.about-us-text-container{
+    text-align: center;
+    width: 100%;
+}
+
+/* Title Section */
+#title{
+    height: 100%;
+}
+.text{
+    font-weight: 300;
+    text-align: justify;
+    text-justify: inter-character;
+}
+.title-img{
+    width: 100%;
+    padding-left: 5%;
+}
+.btn-start{
+    background: #83de75;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    margin: 3% 3%;
+}
+
+/* ¿How Works? Section */
+#how-works{
+    background: #eeeeee;
+    padding: 10% 5% 15% 5%;
+}
+.card{
+    margin: auto;
+    width: 350px;
+    background: #f4f5f7;
+}
+.card-imagen {
+    margin-bottom: 10%;
+}
+.btn-card{
+    background: #83de75;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+/* About-us Section  */
+#about-us{
+    padding: 15% 5% 10% 5%;
+}
+.about-us-img{
+    width: 100%;
+}
+.about-us-text{
+    width: 100%
+}
+/* Footer */
+#footer{
+    background: #eeeeee;
+    padding: 5% 5% 5% 5%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.social-media-container{
+    margin-bottom: 3%
+}
+.social-media{
+    display: inline;
+    margin: 0% 1%
+}
+
+@media (max-width: 991px){
+    .title-container{
+        padding: 0;
+        text-align: center;
+    }
+    .text-title-container{
+        padding: 5% 10%;
+        margin: auto;
+    }
+    .title-img{
+        text-align: center;
+    }
+}
