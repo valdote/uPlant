@@ -40,6 +40,11 @@ h4, h5, h6{
     font-weight: 400;
     font-size: 2rem;
 }
+.mapa-title{
+    color: #545454;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
 /* Containers */
 .title-container{
     padding: 10% 0 5% 15%;
@@ -59,6 +64,10 @@ h4, h5, h6{
 .about-us-text-container{
     text-align: center;
     width: 100%;
+}
+.map-container{
+    text-align: center;
+    margin-top: 10%;
 }
 
 /* Title Section */
@@ -87,6 +96,9 @@ h4, h5, h6{
     background: #eeeeee;
     padding: 10% 5% 15% 5%;
 }
+.dona{
+    margin: auto;
+}
 .card{
     margin: auto;
     width: 350px;
@@ -102,6 +114,9 @@ h4, h5, h6{
     margin-top: 5%;
     border-radius: 25px;
 }
+.map{
+    width: 70%;
+}
 /* About-us Section  */
 #about-us{
     padding: 15% 5% 10% 5%;
@@ -112,6 +127,7 @@ h4, h5, h6{
 .about-us-text{
     width: 100%
 }
+
 /* Footer */
 #footer{
     background: #eeeeee;
@@ -125,6 +141,11 @@ h4, h5, h6{
 .social-media{
     display: inline;
     margin: 0% 1%
+}
+.frase-matadora{
+    margin-top: 8%;
+    color: #c6c5c5;
+    font-size: 1.8rem;
 }
 
 @media (max-width: 991px){
@@ -143,5 +164,12 @@ h4, h5, h6{
     .card{
         margin: 0;
         margin-bottom: 5%;
+    
+    }
+    .how-works-text-container{
+        width: 100%;
+    }
+    .map{
+        width: 100%;
     }
 }
