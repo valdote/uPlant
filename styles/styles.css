@@ -71,7 +71,7 @@ h4, h5, h6{
     text-justify: inter-character;
 }
 .title-img{
-    width: 100%;
+    width: 98%;
     padding-left: 5%;
 }
 .btn-start{
@@ -138,5 +138,10 @@ h4, h5, h6{
     }
     .title-img{
         text-align: center;
+    }
+
+    .card{
+        margin: 0;
+        margin-bottom: 5%;
     }
 }
