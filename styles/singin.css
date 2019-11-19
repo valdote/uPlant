@@ -50,6 +50,12 @@ body {
     color: #ffffff;
     margin-bottom: 10px;
 }
+.btn-register{
+  border-radius: 25px;
+  background: #67647e;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
 
 .img-container{
     width: 100%;
