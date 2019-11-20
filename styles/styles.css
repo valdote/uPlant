@@ -96,12 +96,12 @@ h4, h5, h6{
     background: #eeeeee;
     padding: 10% 5% 15% 5%;
 }
-.dona{
+.card-benefit{
+    width: 20rem;
     margin: auto;
 }
 .card{
     margin: auto;
-    width: 350px;
     background: #f4f5f7;
 }
 .card-imagen {
